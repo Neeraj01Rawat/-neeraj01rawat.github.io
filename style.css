@@ -114,6 +114,11 @@ h1 span { color: var(--accent); }
 .primary { background: var(--ink); color: white; }
 .primary:hover { background: var(--accent); }
 .secondary { border: 1px solid var(--line); background: var(--surface); }
+.accent {
+  background: var(--accent);
+  color: white;
+}
+.accent:hover { background: var(--accent-dark); }
 
 .quick-stats {
   display: flex;
